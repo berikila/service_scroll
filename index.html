@@ -2,88 +2,146 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Slide-in panels - ScrollTrigger</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+  <title>Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
   <link href='//fonts.googleapis.com/css?family=Signika+Negative:300,400,600' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://codepen.io/GreenSock/pen/ZEGdQLM/7ba936b34824fefdccfe2c6d9f0b740b.css'><link rel="stylesheet" href="./style.css">
-
+<!-- <link rel='stylesheet' href='https://codepen.io/GreenSock/pen/ZEGdQLM/7ba936b34824fefdccfe2c6d9f0b740b.css'> -->
+<!-- <link rel="stylesheet" href="./style.css"> -->
+<!-- <link rel="stylesheet" href="./layout.css"> -->
+<link rel="stylesheet" href="./stylez.css">
 </head>
+
 <body>
 <!-- partial:index.partial.html -->
 <div class="wana">
-  <div class="title"><h1 >Our Services</h1></div>
-      <div class="pin-block container">
+  
+    <div class="scroll_p">
+      <!-- <svg width="23" height="422" viewBox="0 0 23 422" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="23" height="422" fill="white"/>
+        <circle id="crc3" cx="11.5" cy="406.5" r="10.5" fill="#ffffff" stroke="#b7b7b7" stroke-width="2"/>
+        <path d="M12 345L12 395" fill="#ffffff" stroke="#b7b7b7" stroke-width="5"/>
+        <circle id="crc2" cx="11.5" cy="335.5" r="10.5" stroke="#b7b7b7" stroke-width="2"/>
+        <path d="M12 29L12 325" stroke="#b7b7b7" stroke-width="5"/>
+        <circle id="crc1" cx="11.5" cy="17.5" r="10.5" fill="#b7b7b7" stroke="#b7b7b7" stroke-width="2"/>
+        </svg> -->
+
+          <svg class="scroll-ind" width="23" height="422" viewBox="0 0 23 422" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- <rect width="23" height="422" fill="white"/> -->
+          <path class="ind" d="M12 29L12 418" stroke="#A6A6A6" stroke-width="5"/>
+          <circle id="crc3" cx="11.5" cy="406.5" r="10.5" fill="white" stroke="#A6A6A6" stroke-width="2"/>
+          <circle id="crc1" cx="11.5" cy="17.5" r="10.5" fill="#A6A6A6" stroke="#A6A6A6" stroke-width="2"/>
+          <circle id="crc2" cx="11.5" cy="305.5" r="10.5" fill="white" stroke="#A6A6A6" stroke-width="2"/>
+          </svg>
+          <!-- <img src="./img/Scroll Position.svg" alt=""> -->
+          <!-- <img src="./img/scroll.svg" alt=""> -->
+      
+    </div>
+
+  <div class="pin-block container">
        
-            <div class="text">
-              <div class="h2">
-                <h2>3D Interior Rendering</h2></div>
-              <p>3D rendering is key to visualise your dream space. Every
-                designer needs to know how to explain ideas to clients
-                clearly. After all, clients may not even know what they
-                want! So, the designer must convey the concept as
-                accurately as possible.</p>
-                <button class="butn"><a href="">Learn More</a> </button>
-            </div>
+        <div class="title">
+          <h1 >Our Services</h1>
+        </div>
 
-            <div class="images-container">
-                <div class="imgs stacks">
-                  <img class="composition__photo composition__photo--p1" src="./img/RoomSceneHH_003.jpg" alt="">
-                  <img class="composition__photo composition__photo--p2" src="./img/IMG_3211.JPG" alt="">
-                  <img class="composition__photo composition__photo--p3" src="./img/RoomSceneHH_003.jpg" alt="">
-                </div>
-            </div>
-      </div>
-      <div class="pin-block container">
-            <div class="text">
-              <div class="h2">
-                <h2>Furniture Rendering</h2></div>
-              <p>Make your marketing and branding campaigns cost
-                and time-effective by taking advantage of 3D furniture
-                rendering. Instead of hiring an entire team of
-                professional photographers, lighting experts, and
-                designers to curate your campaigns, simply hire our 3D
-                product rendering company to create stunning visuals
-                in-house.</p>
-                <button class="butn"><a href="">Learn More</a> </button>
-            </div>
+        <div class="text">
+                  
+          <div class="textcont">
+              <div class="intt">
+                  <div class="h2 int">
+                      <h2 class="inth">3D Interior Rendering</h2>
+                    </div>
+                    <p class="intp">3D rendering is key to visualise your dream space. Every designer needs to know how to explain ideas to clients clearly. After all, clients may not even know what they want! So, the designer must convey the concept as accurately as possible.</p>
+                    <button class="butn intbtn">
+                      <a href="">Learn More</a> 
+                    </button>
+              </div>
 
-            <div class="images-container">
-                <div  id="container" class="imgs">
-                 <canvas  id="sprite" ></canvas>
-                  <!-- <canvas id="hero-lightpass" /> -->
-                </div>
-            </div>
-      </div>
 
-      <div class="pin-block container">
-            <div class="text">
-              <div class="h2">
-                <h2>3D Exterior Rendering</h2></div>
-              <p>Catch the eye of your customers with ultra-realistic 3D
-                exterior rendering. A photorealistic street view of your
-                development makes a property feel real, even if it is not
-                yet finished. Customers can quickly imagine their new
-                home, office, or business as seen from the outside and
-                get a very real sense of the development.</p>
-                <button class="butn"><a href="">Learn More</a> </button>
-            </div>
+              <div class="furntt">
+                  <div class="h2 furnt"> 
+                    <h2 class="furnth">Furniture Rendering</h2>
+                  </div>
+                    <p class="furntp">Make your marketing and branding campaigns cost and time-effective by taking advantage of 3D furniture rendering. Instead of hiring an entire team of professional photographers, lighting experts, and designers to curate your campaigns, simply hire our 3D product rendering company to create stunning visuals in-house.</p>
+                    <button id="furnbtn" class="butn "><a href="">Learn More</a> </button>
+              </div>
 
-            <div class="images-container">
-                <div class="imgs">
-                  <img src="./img/3d-exterior-walkthrough.jpg" alt="">
+              <div class="extt">
+                  <div class="h2 exth">
+                  <h2>3D Exterior Rendering</h2></div>
+                  <p class="extp">Catch the eye of your customers with ultra-realistic 3D exterior rendering. A photorealistic street view of your development makes a property feel real, even if it is not yet finished. Customers can quickly imagine their new home, office, or business as seen from the outside and get a very real sense of the development.  
+                  </p>
+                  <button id="extbtn" class="butn ">
+                    <a href="">Learn More</a> 
+                  </button>
+
+              </div>
+          </div>
+      
+        </div>
+    </div>
+
+    <div id="imgcnt" class="images-container">
+       
+      <div style="height: 500px;" class="imgs stacks">
+          
+          <img class="composition__photo img1 composition__photo--p1" src="./img/IMG_3211.JPG" alt="">
+          <img class="composition__photo img2 composition__photo--p2" src="./img/RoomSceneHH_003.jpg" alt="">
+          <img class="composition__photo img3 composition__photo--p3" src="./img/bathroom D01.jpg" alt="">
+      
+        </div>
+
+      <div  id="spritez">
         
-                </div>
-            </div>
+        <canvas class="furnimg" id="hero-lightpass"></canvas>
+        <img style="opacity: 0;" src="./img/sprite/0001.jpg" alt="">
+       
+
+        <!-- <img class="imgs extimg" src="./img/3d-exterior-walkthrough.jpg" alt=""> -->
+      </div>
+     
+           
+      <div  class="imgs extimg">
+        <!-- <canvas class="3dimg" id="3d-exter"></canvas> -->
+        <canvas class="3dimg" id="3d-exter"></canvas>
+        <!-- <img src="./img/3d-exterior-walkthrough.jpg" alt=""> -->
       </div>
 
+      <div class="more_services">
+        <button id="morbtn" class="butn">
+          <a href="">More Services</a> 
+        </button>
+
+        <button id="conbtn" class="butn">
+          <a href="">Contact Us</a> 
+        </button>
+      </div>
+
+    </div>    
+  
 </div>
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="/gsap.min.js"></script> -->
+<!-- <script src="/ScrollTrigger.min.js"></script> -->
 <!-- partial -->
 <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426'></script>
 <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js'></script>
 <script src='https://codepen.io/GreenSock/pen/ZEGdQLM/7ba936b34824fefdccfe2c6d9f0b740b.js'></script>
 <!-- <script  src="./script.js"></script> -->
 <script  src="./app.js"></script>
+<!-- <script  src="./appz.js"></script> -->
+<script>
+  
+// $("div#images").sequencer({
+//   count: 30,
+//   path: "./img/spritez",
+//   ext: "jpg"
+// }, function() {
+//   $("div#preload").hide();
+// });
+
+</script>
 </body>
 </html>

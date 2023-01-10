@@ -1,0 +1,170 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.scroll_p{
+    position: fixed;
+    left: 8vw;
+    top: 23vh;
+}
+  
+.title h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5vw;
+    color: #9C691E;
+    /* position: fixed; */
+}
+
+.pin-block{
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.text{
+    position: fixed;
+    width: 80%;
+    margin: 0vw;
+    height: 100%;
+    padding-left: 10vw;
+    /* padding-top: 20vw; */
+  
+}
+
+.images-container{
+    position: relative;
+    width: 50vw;
+    height: 100%;
+    margin: 0;
+  
+}
+
+.wana{
+    /* height: 1000px; */
+    /* position: absolute; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.stacks{
+    position: absolute ;
+    /* z-index: 11111; */
+    width: 100%;
+}
+
+.intt{
+    /* height: 100vh; */
+}
+
+
+.stacks{
+    position: absolute ;
+    /* z-index: 11111; */
+    width: 100%;
+}
+
+.int{
+    top: 2vw;
+}
+
+.furntp {
+    opacity: 0;
+}
+#furnbtn {
+    opacity: 0;
+}
+
+.extimg img{
+    /* top: 15vw; */
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    /* transform: translate(0%, 50%); */
+}
+
+.extt{
+    position: absolute;
+    bottom: -6vh;
+}
+
+
+.img1 {
+    transform: rotate3d(0, 1, 0, -35deg);
+    transform-style: preserve-3d;
+    position: absolute;
+    padding-left: 15rem;
+    padding-top: -5rem;
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+}
+    
+.img2 {
+    position: absolute;
+    padding-left: 10rem;
+    top: 15rem;
+    transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+}
+    
+.img3 {
+    position: absolute;
+    padding-right: 10rem;
+    bottom: 10rem;
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+}
+     
+.butn {
+    border: none;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* background-color: #9C691E; */
+    border: 2px solid #9C691E;
+    border-radius: 0em !important;
+    background: transparent;
+    color: #9C691E;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    line-height: 1;
+    /* margin: 20px; */
+    padding: 1em 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+  
+.butn a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-family: "Montserrat",Sans-serif;
+}
+  
+.butn:hover {
+    box-shadow: 0px 0px 3px #000000;
+    background-color: #cdcdcd62;
+}
